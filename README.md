@@ -85,10 +85,10 @@ Edita produto especificado.
 
 ```php
 	{
-		"name": "Carlos",
-		"cpf": "183.628.800-07",
-		"photo": "5b1b2849-1854-451f-bc3e-2610c5f9d486.png",
-		"sex": "M"
+		"customer_id": 1,
+		"name": "carro",
+		"value": "50000.00",
+		"photo": "5b1b2849-1854-451f-bc3e-2610c5f9d486.png"
 	},
 ```
 

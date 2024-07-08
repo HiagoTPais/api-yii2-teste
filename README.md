@@ -45,8 +45,7 @@ Edita cliente especificado.
 ```php
 	{
 		"name": "Carlos",
-		"cpf": "183.628.800-07",
-		"photo": "5b1b2849-1854-451f-bc3e-2610c5f9d486.png",
+		"cpf": "183.628.800-07",,
 		"sex": "M"
 	},
 ```
@@ -58,8 +57,7 @@ Para cadastrar novos clientes use o objeto:
 ```php
 	{
 		"name": "Carlos",
-		"cpf": "183.628.800-07",
-		"photo": "5b1b2849-1854-451f-bc3e-2610c5f9d486.png",
+		"cpf": "183.628.800-07",,
 		"sex": "M"
 	},
 ```
@@ -88,7 +86,6 @@ Edita produto especificado.
 		"customer_id": 1,
 		"name": "carro",
 		"value": "50000.00",
-		"photo": "5b1b2849-1854-451f-bc3e-2610c5f9d486.png"
 	},
 ```
 
@@ -101,7 +98,6 @@ Para cadastrar novos produtos use o objeto:
 		"customer_id": 1,
 		"name": "carro",
 		"value": "50000.00",
-		"photo": "5b1b2849-1854-451f-bc3e-2610c5f9d486.png"
 	},
 ```
 Voce deve especificar o id do cliente que possui o produto.

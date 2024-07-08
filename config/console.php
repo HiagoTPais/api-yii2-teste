@@ -14,6 +14,13 @@ $config = [
         '@tests' => '@app/tests',
     ],
     'components' => [
+        'user' => [
+            'class' => 'yii\web\User',
+            'identityClass' => 'app\models\User',
+        ],
+        'session' => [
+            'class' => 'yii\web\Session'
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

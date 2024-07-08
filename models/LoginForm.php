@@ -65,6 +65,22 @@ class LoginForm extends Model
         return false;
     }
 
+    public function actionLogin() {
+        if (!\Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+
+        $model = new LoginForm();
+
+        if ($model->load(Yii::$app->user->post()) && $model->login()) {
+            return $this->goBack();
+        }
+
+        return $this->render('login', [
+            'model' => $model
+        ]);
+    }
+
     /**
      * Finds user by [[username]]
      *
